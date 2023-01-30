@@ -1,0 +1,84 @@
+{
+  "contracts": {
+    "Reputation": "b727ea35364f1afe1fad0415b3c3aa320419aa78"
+  },
+  "tests": {
+    "tests/test_api.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "F",
+      "sha1": "63516cbcb74ac828a599e65c6dd024840d3d6d76",
+      "txhash": []
+    },
+    "tests/test_database.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".F",
+      "sha1": "18caa2d08fa58c8d479f19acf449286826e6f451",
+      "txhash": []
+    },
+    "tests/test_deploy.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "........",
+      "sha1": "e1869eac33bb94a80926d696b0684fe459943dd5",
+      "txhash": [
+        "2b62cd3e21534860e9824145afc88d1493cfd195",
+        "44bbefedfa4a452066940883fae9b6047e157067",
+        "9112dad2b71d56c04f8f53c2593113a111dff60f"
+      ]
+    }
+  },
+  "tx": {
+    "2b62cd3e21534860e9824145afc88d1493cfd195": {
+      "Reputation": {
+        "0": [
+          [
+            1,
+            2
+          ],
+          [
+            15,
+            17
+          ],
+          [
+            16
+          ]
+        ]
+      }
+    },
+    "44bbefedfa4a452066940883fae9b6047e157067": {
+      "Reputation": {
+        "0": [
+          [
+            1
+          ],
+          [
+            15,
+            16
+          ],
+          []
+        ]
+      }
+    },
+    "9112dad2b71d56c04f8f53c2593113a111dff60f": {
+      "Reputation": {
+        "0": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            15,
+            18
+          ],
+          [
+            16,
+            17
+          ]
+        ]
+      }
+    }
+  }
+}
